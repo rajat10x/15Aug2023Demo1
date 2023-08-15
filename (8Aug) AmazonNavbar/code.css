@@ -1,0 +1,350 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+html,body
+{
+    width: 100%;
+}
+
+body
+{
+    background-color: rgb(36,32,33);
+}
+
+.container
+{
+
+    /* border: 2px solid green; */
+    background-color:  rgb(36,32,33);
+    height: 120px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.parent1
+{
+    background-color: rgb(36,32,33);
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 55%;
+    display: flex;
+    /* padding-bottom:  */
+}
+
+
+.parent2
+{
+    background-color: cadetblue;
+    border:2px solid rgba(0, 0, 0, 0) ;
+    height: 38%;
+}
+
+.parent1 .child11
+{
+   border: 1px solid rgba(0, 0, 255, 0); 
+   height: 100%;
+   width: 15%;
+}
+
+.child11logo
+{
+    width: 100%;
+    height: 100%;
+}
+
+.parent1 .child12
+{
+   border: 1px solid rgba(0, 0, 255, 0);
+   height: 100%;
+   width: 18%; 
+   display: flex;
+}
+
+ .child12 i
+{
+    
+    border: 1px solid rgba(0, 128, 0, 0);
+    
+    background-color:rgb(36,32,33);
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+#childad
+{
+background-color:rgb(36,32,33);
+display: flex;
+flex-direction: column;
+}
+#childad p
+{
+    border: 1px solid rgba(255, 0, 0, 0);
+    font-size: 12px;
+    color: white;
+    font-weight: 20px;
+    margin-top: 12px;
+}
+#childad h4
+{
+border: 1px solid rgba(255, 0, 0, 0);
+color: white;
+}
+
+.parent1 .child13
+{
+   border: 1px solid rgba(0, 0, 255, 0); 
+   height: 100%;
+   width: 70%;
+}
+.child13 .sizesearch
+{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(210, 105, 30, 0);
+    position: relative;
+    border-radius: 5px;
+    border: none;
+}
+
+.child13 input
+{
+    padding-left: 140px;
+    padding-right: 285px;
+    padding-bottom: 11px;
+    padding-top: 20px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.child13 .options
+{
+position: absolute; 
+margin-top: -8%; 
+border: 3px solid rgba(255, 0, 0, 0);
+width: 50px;
+height: 82%;  
+}
+.child13 .options select{
+    width: 100%;
+    height: 100%;
+}
+
+.child13 .search
+{
+    position: absolute;
+    /* border: 2px solid green; */
+    background-color: orange;
+    border-radius: 5px;
+    margin-top:-47px;
+    margin-left: 543px;
+    width: 50px;
+    height: 79%;
+
+}
+
+.fa-search
+{
+    font-size: 40px;
+    padding: 5px;
+}   
+
+
+.parent1 .child14
+{
+   /* border: 1px solid blue;  */
+   height: 100%;
+   width: 12%;
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 6px;
+   padding-left: 2px;
+   margin-top: 10PX;
+
+}
+.child14 .flag
+{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid green; */
+    /* padding-right: 2px; */
+}
+    .child14 img
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .child14 .en
+    {
+     
+    /* margin-top: 100%;  */
+    /* border: 3px solid red; */
+    width: 50%;
+    height: 100%;  
+    }
+    .child14 .en .list{
+        width: 100%;
+        height: 100%;
+    }
+.parent1 .child15
+{
+   border: 1px solid rgba(0, 0, 255, 0); 
+   height: 100%;
+   width: 15%;
+}
+
+.child15 .sign
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    
+    margin-right: 2px;
+}
+.child15 .sign p
+{
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    color: white;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.child15 .sign h4
+{
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    color: white;
+    
+}
+.child15 .sign i
+{
+    color: white;
+    
+    
+}
+
+.parent1 .child16
+{
+   border: 1px solid rgba(0, 0, 255, 0); 
+   height: 100%;
+   width: 14%;
+   
+}
+.child16 .return
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    margin-right: 2px;
+}
+.child16 .return p
+{
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    color: white;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.child16 .return h4
+{
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    color: white;
+}
+
+.child16  .return .p
+{
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    color: white;
+    padding-top: 10px;
+    font-size: 12px; 
+}
+
+.parent1 .child17
+{
+   border: 1px solid rgba(0, 0, 255, 0); 
+   height: 100%;
+   width: 14%;
+}
+.child17 .cart
+{
+    display: flex;
+}
+
+.child17 .cart i
+{
+    border: 1px solid rgba(0, 0, 255, 0); 
+    font-size: 50px;
+    color: white;
+    padding-right: 10px;
+}
+.child17 .cart h4
+{
+    border: 1px solid rgba(0, 0, 255, 0); 
+    padding-top: 30px;
+    color: white;
+}
+
+
+
+.parent2
+{
+    background-color:  rgb(35,47,62);
+    border:2px solid rgba(0, 0, 0, 0) ;
+    height: 40%;
+    display: flex;
+    padding-top: 4px;
+}
+.parent2 .explore
+{
+    border: 1px solid rgba(255, 0, 0, 0);
+    border: none;
+    width: 7%;
+}
+.parent2 .nav
+{
+    border: 1px solid rgba(255, 0, 0, 0);
+    width: 90%;
+}
+
+.explore1
+{
+    display: flex;
+    margin-top: 6PX;
+}
+
+.explore1 i
+{
+    border:2px solid rgba(0, 0, 0, 0) ;
+    font-size: 25px;
+    padding-left: 18px;
+    color: white;
+}
+.explore1 h4
+{
+
+    border:2px solid rgba(0, 0, 0, 0) ;
+    font-size:19px;
+    margin-top: 2px;
+    padding-left: 2PX;
+    color: white;
+}
+.nav
+{
+    margin-top: 10px;
+    padding-right: 9px;
+}
+#navi a
+{
+    text-decoration: none;
+    margin-left: 3px;
+    color: white;
+    padding-right:5px;
+
+}

@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+section
+{
+    /* border: 2px solid red; */
+    background-color: #eaecee;;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .box-container
+{
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+section .box-before-hover
+{
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.624) ;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+/* section .box-before-hover .hover-corner
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #8baabf;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+} */
+
+section .image-box
+{
+    /* border: 2px solid forestgreen; */
+    border-radius: 100%;
+    background-color: #007aff;
+    /* padding: -20px; */
+    height: 70px;
+    width: 70px;
+    transition: all .5s;
+    
+}
+
+section .image-box img
+{
+    /* border: 2px solid forestgreen; */
+    border-radius: 100%;
+    margin: 4px 5px;
+    /* background-color: #007aff; */
+    height: 90%;
+    width: 90%;
+}
+
+section .content-box
+{
+    /* border: 2px solid lawngreen; */
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .content-box h2
+{
+    margin-bottom: 10px;
+}
+
+section .box-container .box-after-hover
+{
+    background-color: #8baabf;
+    border-radius: 10px;
+    border-bottom-left-radius: 80%;
+    height: 60px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+    transition: all .5s;
+
+}
+
+.box-container:hover .box-after-hover
+{
+    height: 300px;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+
+.box-container:hover .box-before-hover
+{
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.box-container:hover .image-box
+{
+    background-color: #8baabf;
+}
+
+/* .box-container:hover img
+{
+    background-color: #8baabf;
+} */
+
+
+
+
+
+
+
+

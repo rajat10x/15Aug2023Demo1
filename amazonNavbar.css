@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+body
+{
+    width: 100%;
+}
+
+.top-navbar
+{
+    border: 2px solid lightcoral;
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box1
+{
+    border: 2px solid green;
+    width: 10%;
+    height: 90%;
+}
+
+.logo-box1 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.address-box2
+{
+    border: 2px solid red;
+    width: 12%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.address-box2 .content
+{
+    margin-left: 5px;
+    color: white;
+    
+}
+
+.address-box2 .content h6
+{
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.search-box3
+{
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    width: 50%;
+    height: 90%;  
+    background-color: white; 
+    position: relative;
+}
+
+.search-box3 .list-box3a
+{
+    border: 2px solid grey;
+    border-radius: 2px;
+    width: 10%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(128, 128, 128, 0.562);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+}
+
+.search-box3 .list-box3a select
+{
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.search-box3 input
+{
+    height: 100%;
+    width: 85%;
+    padding: 0px 10px;
+    position: absolute;
+    left: 70px;
+}
+
+.lang-box4
+{
+    border: 2px solid yellow;
+    width: 5%;
+    height: 90%;
+}
+
+.signin-box5
+{
+    border: 2px solid tomato;
+    width: 10%;
+    height: 90%;
+}
+
+.return-box6
+{
+    border: 2px solid aqua;
+    width: 5%;
+    height: 90%;
+}
+
+.cart-box7
+{
+    border: 2px solid olive;
+    width: 5%;
+    height: 90%;
+}
+
+.bottom-navbar
+{
+    border: 2px solid lawngreen;
+    height: 35px;
+    width: 100%;
+}
+
+/* hover effects */
+
+.logo-box1:hover
+{
+    border: 2px solid white;
+}
+
+.address-box2:hover
+{
+    border: 2px solid white;
+}
+
+
+
+/* font awesome css edit */
+
+.fa-map-marker
+{
+    color: white;
+}
+
+.fa-search
+{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
